@@ -1,10 +1,10 @@
 body {
 	margin: 0 auto;
-	max-width: 50em;
+	max-width: 60em;
 	font-family: "Helvetica", Arial", sans-serif;
 	line-height: 1.5;
 	padding: 4em 1em;
-	padding: 4em 1em;
+	padding: 0em 1em 4em 1em;
 	color: #555;
 }
 
@@ -15,6 +15,10 @@ h1, h2, strong {
 h2 {
 	margin-top: 1em;
 	padding-top: 1em;
+}
+
+h1 {
+	color: #DDD;
 }
 
 code, pre {
@@ -31,4 +35,16 @@ pre {
 
 a {
 	color: #e81c4f;
+}
+
+header {
+	background-color: #233;
+	background-image: url("header.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	line-height: 1.2;
+	padding: 2em;
+	text-align: center;
+	color: #222;
 }
